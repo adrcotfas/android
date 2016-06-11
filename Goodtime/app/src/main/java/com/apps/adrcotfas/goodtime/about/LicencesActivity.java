@@ -46,17 +46,6 @@ public class LicencesActivity extends AppCompatActivity {
                 }
             });
 
-            Preference vladIlie = findPreference("vlad_ilie");
-            vladIlie.setOnPreferenceClickListener(new Preference.OnPreferenceClickListener() {
-                @Override
-                public boolean onPreferenceClick(Preference preference) {
-                    Uri uri = Uri.parse("https://www.facebook.com/vlad.adrian.ilie");
-                    Intent intent = new Intent(Intent.ACTION_VIEW, uri);
-                    startActivity(intent);
-                    return true;
-                }
-            });
-
             Preference appRater = findPreference("app_rater");
             appRater.setOnPreferenceClickListener(new Preference.OnPreferenceClickListener() {
                 @Override

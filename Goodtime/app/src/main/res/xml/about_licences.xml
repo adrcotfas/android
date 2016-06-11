@@ -3,11 +3,6 @@
         <PreferenceCategory
             android:title="Thanks to">
                 <Preference
-                    android:key="vlad_ilie"
-                    android:title="Vlad Ilie"
-                    android:summary="for the voice from the promo video.">
-                </Preference>
-                <Preference
                     android:key="patrick_ford"
                     android:title="Patrick Ford"
                     android:summary="for the notification chime.">

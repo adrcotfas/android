@@ -6,13 +6,11 @@
     <string name="action_about">About</string>
 
     <string-array name="pref_work_titles">
-        <item>1 minute</item>
         <item>10 minutes</item>
         <item>25 minutes</item>
         <item>50 minutes</item>
     </string-array>
     <string-array name="pref_work_values">
-        <item>1</item>
         <item>10</item>
         <item>25</item>
         <item>50</item>
